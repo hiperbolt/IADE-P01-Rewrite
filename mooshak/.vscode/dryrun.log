@@ -1,0 +1,102 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hiperbolt/Projetos/iaed/P1-rewrite/mooshak'
+rm -f *.diff
+make -Bknw --no-print-directory `ls *.in | sed -e "s/in/diff/"`
+../proj1 < test01.in | diff - test01.out > test01.diff
+if [ `wc -l < test01.diff` -eq 0 ]; then echo "\e[1;32mtest test01.in PASSED\e[0m"; else echo "\e[1;31mtest test01.in FAILED\e[0m"; fi;
+../proj1 < test02.in | diff - test02.out > test02.diff
+if [ `wc -l < test02.diff` -eq 0 ]; then echo "\e[1;32mtest test02.in PASSED\e[0m"; else echo "\e[1;31mtest test02.in FAILED\e[0m"; fi;
+../proj1 < test03.in | diff - test03.out > test03.diff
+if [ `wc -l < test03.diff` -eq 0 ]; then echo "\e[1;32mtest test03.in PASSED\e[0m"; else echo "\e[1;31mtest test03.in FAILED\e[0m"; fi;
+../proj1 < test04.in | diff - test04.out > test04.diff
+if [ `wc -l < test04.diff` -eq 0 ]; then echo "\e[1;32mtest test04.in PASSED\e[0m"; else echo "\e[1;31mtest test04.in FAILED\e[0m"; fi;
+../proj1 < test05.in | diff - test05.out > test05.diff
+if [ `wc -l < test05.diff` -eq 0 ]; then echo "\e[1;32mtest test05.in PASSED\e[0m"; else echo "\e[1;31mtest test05.in FAILED\e[0m"; fi;
+../proj1 < test06.in | diff - test06.out > test06.diff
+if [ `wc -l < test06.diff` -eq 0 ]; then echo "\e[1;32mtest test06.in PASSED\e[0m"; else echo "\e[1;31mtest test06.in FAILED\e[0m"; fi;
+../proj1 < test07.in | diff - test07.out > test07.diff
+if [ `wc -l < test07.diff` -eq 0 ]; then echo "\e[1;32mtest test07.in PASSED\e[0m"; else echo "\e[1;31mtest test07.in FAILED\e[0m"; fi;
+../proj1 < test08.in | diff - test08.out > test08.diff
+if [ `wc -l < test08.diff` -eq 0 ]; then echo "\e[1;32mtest test08.in PASSED\e[0m"; else echo "\e[1;31mtest test08.in FAILED\e[0m"; fi;
+../proj1 < test09.in | diff - test09.out > test09.diff
+if [ `wc -l < test09.diff` -eq 0 ]; then echo "\e[1;32mtest test09.in PASSED\e[0m"; else echo "\e[1;31mtest test09.in FAILED\e[0m"; fi;
+../proj1 < test10.in | diff - test10.out > test10.diff
+if [ `wc -l < test10.diff` -eq 0 ]; then echo "\e[1;32mtest test10.in PASSED\e[0m"; else echo "\e[1;31mtest test10.in FAILED\e[0m"; fi;
+../proj1 < test11.in | diff - test11.out > test11.diff
+if [ `wc -l < test11.diff` -eq 0 ]; then echo "\e[1;32mtest test11.in PASSED\e[0m"; else echo "\e[1;31mtest test11.in FAILED\e[0m"; fi;
+../proj1 < test12.in | diff - test12.out > test12.diff
+if [ `wc -l < test12.diff` -eq 0 ]; then echo "\e[1;32mtest test12.in PASSED\e[0m"; else echo "\e[1;31mtest test12.in FAILED\e[0m"; fi;
+../proj1 < test13.in | diff - test13.out > test13.diff
+if [ `wc -l < test13.diff` -eq 0 ]; then echo "\e[1;32mtest test13.in PASSED\e[0m"; else echo "\e[1;31mtest test13.in FAILED\e[0m"; fi;
+../proj1 < test14.in | diff - test14.out > test14.diff
+if [ `wc -l < test14.diff` -eq 0 ]; then echo "\e[1;32mtest test14.in PASSED\e[0m"; else echo "\e[1;31mtest test14.in FAILED\e[0m"; fi;
+../proj1 < test15.in | diff - test15.out > test15.diff
+if [ `wc -l < test15.diff` -eq 0 ]; then echo "\e[1;32mtest test15.in PASSED\e[0m"; else echo "\e[1;31mtest test15.in FAILED\e[0m"; fi;
+../proj1 < test16.in | diff - test16.out > test16.diff
+if [ `wc -l < test16.diff` -eq 0 ]; then echo "\e[1;32mtest test16.in PASSED\e[0m"; else echo "\e[1;31mtest test16.in FAILED\e[0m"; fi;
+../proj1 < test17.in | diff - test17.out > test17.diff
+if [ `wc -l < test17.diff` -eq 0 ]; then echo "\e[1;32mtest test17.in PASSED\e[0m"; else echo "\e[1;31mtest test17.in FAILED\e[0m"; fi;
+../proj1 < test18.in | diff - test18.out > test18.diff
+if [ `wc -l < test18.diff` -eq 0 ]; then echo "\e[1;32mtest test18.in PASSED\e[0m"; else echo "\e[1;31mtest test18.in FAILED\e[0m"; fi;
+../proj1 < test19.in | diff - test19.out > test19.diff
+if [ `wc -l < test19.diff` -eq 0 ]; then echo "\e[1;32mtest test19.in PASSED\e[0m"; else echo "\e[1;31mtest test19.in FAILED\e[0m"; fi;
+../proj1 < test20.in | diff - test20.out > test20.diff
+if [ `wc -l < test20.diff` -eq 0 ]; then echo "\e[1;32mtest test20.in PASSED\e[0m"; else echo "\e[1;31mtest test20.in FAILED\e[0m"; fi;
+../proj1 < test21.in | diff - test21.out > test21.diff
+if [ `wc -l < test21.diff` -eq 0 ]; then echo "\e[1;32mtest test21.in PASSED\e[0m"; else echo "\e[1;31mtest test21.in FAILED\e[0m"; fi;
+../proj1 < test22.in | diff - test22.out > test22.diff
+if [ `wc -l < test22.diff` -eq 0 ]; then echo "\e[1;32mtest test22.in PASSED\e[0m"; else echo "\e[1;31mtest test22.in FAILED\e[0m"; fi;
+../proj1 < test23.in | diff - test23.out > test23.diff
+if [ `wc -l < test23.diff` -eq 0 ]; then echo "\e[1;32mtest test23.in PASSED\e[0m"; else echo "\e[1;31mtest test23.in FAILED\e[0m"; fi;
+../proj1 < test24.in | diff - test24.out > test24.diff
+if [ `wc -l < test24.diff` -eq 0 ]; then echo "\e[1;32mtest test24.in PASSED\e[0m"; else echo "\e[1;31mtest test24.in FAILED\e[0m"; fi;
+../proj1 < test25.in | diff - test25.out > test25.diff
+if [ `wc -l < test25.diff` -eq 0 ]; then echo "\e[1;32mtest test25.in PASSED\e[0m"; else echo "\e[1;31mtest test25.in FAILED\e[0m"; fi;
+../proj1 < test26.in | diff - test26.out > test26.diff
+if [ `wc -l < test26.diff` -eq 0 ]; then echo "\e[1;32mtest test26.in PASSED\e[0m"; else echo "\e[1;31mtest test26.in FAILED\e[0m"; fi;
+../proj1 < test27.in | diff - test27.out > test27.diff
+if [ `wc -l < test27.diff` -eq 0 ]; then echo "\e[1;32mtest test27.in PASSED\e[0m"; else echo "\e[1;31mtest test27.in FAILED\e[0m"; fi;
+../proj1 < test28.in | diff - test28.out > test28.diff
+if [ `wc -l < test28.diff` -eq 0 ]; then echo "\e[1;32mtest test28.in PASSED\e[0m"; else echo "\e[1;31mtest test28.in FAILED\e[0m"; fi;
+../proj1 < test29.in | diff - test29.out > test29.diff
+if [ `wc -l < test29.diff` -eq 0 ]; then echo "\e[1;32mtest test29.in PASSED\e[0m"; else echo "\e[1;31mtest test29.in FAILED\e[0m"; fi;
+../proj1 < test30.in | diff - test30.out > test30.diff
+if [ `wc -l < test30.diff` -eq 0 ]; then echo "\e[1;32mtest test30.in PASSED\e[0m"; else echo "\e[1;31mtest test30.in FAILED\e[0m"; fi;
+../proj1 < test31.in | diff - test31.out > test31.diff
+if [ `wc -l < test31.diff` -eq 0 ]; then echo "\e[1;32mtest test31.in PASSED\e[0m"; else echo "\e[1;31mtest test31.in FAILED\e[0m"; fi;
+../proj1 < test32.in | diff - test32.out > test32.diff
+if [ `wc -l < test32.diff` -eq 0 ]; then echo "\e[1;32mtest test32.in PASSED\e[0m"; else echo "\e[1;31mtest test32.in FAILED\e[0m"; fi;
+../proj1 < test33.in | diff - test33.out > test33.diff
+if [ `wc -l < test33.diff` -eq 0 ]; then echo "\e[1;32mtest test33.in PASSED\e[0m"; else echo "\e[1;31mtest test33.in FAILED\e[0m"; fi;
+../proj1 < test34.in | diff - test34.out > test34.diff
+if [ `wc -l < test34.diff` -eq 0 ]; then echo "\e[1;32mtest test34.in PASSED\e[0m"; else echo "\e[1;31mtest test34.in FAILED\e[0m"; fi;
+../proj1 < test35.in | diff - test35.out > test35.diff
+if [ `wc -l < test35.diff` -eq 0 ]; then echo "\e[1;32mtest test35.in PASSED\e[0m"; else echo "\e[1;31mtest test35.in FAILED\e[0m"; fi;
+../proj1 < test36.in | diff - test36.out > test36.diff
+if [ `wc -l < test36.diff` -eq 0 ]; then echo "\e[1;32mtest test36.in PASSED\e[0m"; else echo "\e[1;31mtest test36.in FAILED\e[0m"; fi;
+../proj1 < test37.in | diff - test37.out > test37.diff
+if [ `wc -l < test37.diff` -eq 0 ]; then echo "\e[1;32mtest test37.in PASSED\e[0m"; else echo "\e[1;31mtest test37.in FAILED\e[0m"; fi;
+../proj1 < test38.in | diff - test38.out > test38.diff
+if [ `wc -l < test38.diff` -eq 0 ]; then echo "\e[1;32mtest test38.in PASSED\e[0m"; else echo "\e[1;31mtest test38.in FAILED\e[0m"; fi;
+../proj1 < test39.in | diff - test39.out > test39.diff
+if [ `wc -l < test39.diff` -eq 0 ]; then echo "\e[1;32mtest test39.in PASSED\e[0m"; else echo "\e[1;31mtest test39.in FAILED\e[0m"; fi;
+../proj1 < test40.in | diff - test40.out > test40.diff
+if [ `wc -l < test40.diff` -eq 0 ]; then echo "\e[1;32mtest test40.in PASSED\e[0m"; else echo "\e[1;31mtest test40.in FAILED\e[0m"; fi;
+../proj1 < test41.in | diff - test41.out > test41.diff
+if [ `wc -l < test41.diff` -eq 0 ]; then echo "\e[1;32mtest test41.in PASSED\e[0m"; else echo "\e[1;31mtest test41.in FAILED\e[0m"; fi;
+../proj1 < test42.in | diff - test42.out > test42.diff
+if [ `wc -l < test42.diff` -eq 0 ]; then echo "\e[1;32mtest test42.in PASSED\e[0m"; else echo "\e[1;31mtest test42.in FAILED\e[0m"; fi;
+../proj1 < test43.in | diff - test43.out > test43.diff
+if [ `wc -l < test43.diff` -eq 0 ]; then echo "\e[1;32mtest test43.in PASSED\e[0m"; else echo "\e[1;31mtest test43.in FAILED\e[0m"; fi;
+../proj1 < test44.in | diff - test44.out > test44.diff
+if [ `wc -l < test44.diff` -eq 0 ]; then echo "\e[1;32mtest test44.in PASSED\e[0m"; else echo "\e[1;31mtest test44.in FAILED\e[0m"; fi;
+../proj1 < test45.in | diff - test45.out > test45.diff
+if [ `wc -l < test45.diff` -eq 0 ]; then echo "\e[1;32mtest test45.in PASSED\e[0m"; else echo "\e[1;31mtest test45.in FAILED\e[0m"; fi;
+../proj1 < test46.in | diff - test46.out > test46.diff
+if [ `wc -l < test46.diff` -eq 0 ]; then echo "\e[1;32mtest test46.in PASSED\e[0m"; else echo "\e[1;31mtest test46.in FAILED\e[0m"; fi;
+../proj1 < test47.in | diff - test47.out > test47.diff
+if [ `wc -l < test47.diff` -eq 0 ]; then echo "\e[1;32mtest test47.in PASSED\e[0m"; else echo "\e[1;31mtest test47.in FAILED\e[0m"; fi;
+../proj1 < test48.in | diff - test48.out > test48.diff
+if [ `wc -l < test48.diff` -eq 0 ]; then echo "\e[1;32mtest test48.in PASSED\e[0m"; else echo "\e[1;31mtest test48.in FAILED\e[0m"; fi;
+make: Leaving directory '/home/hiperbolt/Projetos/iaed/P1-rewrite/mooshak'
+ 

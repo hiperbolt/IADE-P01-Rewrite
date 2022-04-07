@@ -3,6 +3,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdlib.h>
+
 /* 
     Arguments 
 */
@@ -75,7 +77,7 @@ typedef struct
     char id[IDENTIFIER_CHARS];
     char country[COUNTRY_CHARS];
     char city[CITY_CHARS];
-    /*  Tt's computationally more
+    /*  It's computationally more
         economic to keep track of this value everytime a flight is added
         than to calculate it later on.
         This optimization is highly significative.
@@ -106,19 +108,27 @@ typedef struct
 
 } state;
 
+/* 
+    Global variables
+*/
+extern state global;
+extern size_t i, j;
+extern int a;
+
 
 /*
     proj1.c
 */
 int parser();
-int handler(char c, char arguments[MAX_NUMBER_OF_ARGUMENTS][MAX_ARGUMENT_SIZE]);
-void add_airport(char arguments[MAX_NUMBER_OF_ARGUMENTS][MAX_ARGUMENT_SIZE]);
+int handler(char c, char (*arguments)[MAX_ARGUMENT_SIZE]);
+void add_airport(char (*arguments)[MAX_ARGUMENT_SIZE]);
 void list_airport(char (*arguments)[MAX_ARGUMENT_SIZE]);
-void sort_all_airports(char (*arguments)[MAX_ARGUMENT_SIZE]);
+void sort_all_airports();
 void add_or_list_flights(char (*arguments)[MAX_ARGUMENT_SIZE]);
-void list_flights(char (*arguments)[MAX_ARGUMENT_SIZE]);
+void list_flights();
 void add_flight(char (*arguments)[MAX_ARGUMENT_SIZE]);
 void departure_flights(char (*arguments)[MAX_ARGUMENT_SIZE]);
+void arrival_flights(char (*arguments)[MAX_ARGUMENT_SIZE]);
 
 int too_many_flights();
 int check_flight_exists(char flight_code[FLIGHT_CODE_CHARS], date departure_date);
@@ -128,7 +138,9 @@ int error_helper_noSuchAirportID(char airport_id[IDENTIFIER_CHARS]);
 airport *helper_find_airport(char airport_id[IDENTIFIER_CHARS]);
 void sort_array(void *array, unsigned int size, unsigned  int element_count, long (*compare)(const void *, const void *));
 void merge(void *array, unsigned int size, unsigned int left_size, unsigned  int right_size,  long (*compare)(const void *, const void *));
-long flights_code_compare(const void * airport1, const void * airport2);
+long airports_id_compare(const void * airport1, const void * airport2);
+long flights_departure_datetime_compare(const void *flight1, const void *flight2);
+long flights_arrival_datetime_compare(const void *flight1, const void *flight2);
 int check_same_date(date d1, date d2);
 void date_to_human(char *buffer, date *date_strct);
 void time_to_human(char *buffer, time *time_strct);
@@ -137,6 +149,8 @@ void human_to_time(char *time_human, time *time_buffer);
 int helper_get_datetime(date d, time t);
 int validate_date(date new_date);
 int convert_to_epoch(date d, int add_to_year);
-
+void calculate_arrival_datetime(date* date_buffer, time* time_buffer, date dep_date, time dep_time, time duration);
+void advance_date(char (*arguments)[MAX_ARGUMENT_SIZE]);
+int current_month_days(int m);
 
 #endif

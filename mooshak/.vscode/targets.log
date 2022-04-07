@@ -1,0 +1,348 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Apr  7 13:37:21 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7dc5b8d8-4b8d-42ef-94df-c2eebdd502d5.sock
+# environment
+VSCODE_CWD = /home/hiperbolt
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/hiperbolt/Projetos/iaed/P1-rewrite/mooshak
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/hiperbolt
+# environment
+XDG_DATA_DIRS = /home/hiperbolt/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/hiperbolt
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/hiperbolt/.config/Code/CachedData/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.W0K3J1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR --no-print-directory
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=2279989b7e6fc75a4d0e7baa624ec02f
+# makefile
+CURDIR := /home/hiperbolt/Projetos/iaed/P1-rewrite/mooshak
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR --no-print-directory
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 13345
+# environment
+MOZ_ENABLE_WAYLAND = 1
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/Lexa:@/tmp/.ICE-unix/1371,unix/Lexa:/tmp/.ICE-unix/1371
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=2279989b7e6fc75a4d0e7baa624ec02f
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 5)
+KO = "\e[1;31mtest $< FAILED\e[0m"
+# environment
+INVOCATION_ID = 6fdde82937c84dd5abed07d33aa432e0
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = hiperbolt
+# environment
+GNOME_SETUP_DISPLAY = :1
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = hiperbolt
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/visual-studio-code.desktop
+# makefile (from 'Makefile', line 6)
+EXE = ../proj1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1371
+# environment
+DISPLAY = :0
+# environment
+USER = hiperbolt
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1319
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 13327
+# makefile (from 'Makefile', line 4)
+OK = "\e[1;32mtest $< PASSED\e[0m"
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+JOURNAL_STREAM = 8:25917
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hiperbolt
+# environment
+QT_IM_MODULE = ibus
+# environment
+MOZ_WEBRENDER = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-7d3ef7bb-1.65.2-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=4/135=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 65027, inode 5253438): 148 files, no impossibilities.
+
+# 148 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.in:
+
+%.diff: %.in
+#  recipe to execute (from 'Makefile', line 12):
+	@-$(EXE) < $< | diff - $*.out > $@
+	@if [ `wc -l < $@` -eq 0 ]; then echo $(OK); else echo $(KO); fi;
+
+%.out:
+
+%.diff:
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-04 18:30:57
+#  File has been updated.
+#  Successfully updated.
+
+clean::
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := clean
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 19):
+	rm -f *.diff
+
+.in.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	@-$(EXE) < $< | diff - $*.out > $@
+	@if [ `wc -l < $@` -eq 0 ]; then echo $(OK); else echo $(KO); fi;
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:: clean
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 9):
+	@$(MAKE) $(MFLAGS) `ls *.in | sed -e "s/in/diff/"`
+
+ 
+# Not a target:
+.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mooshak::
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	for i in T*; do cp $$i/input test`basename $$i | sed -e "s/T//"`.in; cp $$i/output test`basename $$i | sed -e "s/T//"`.out; done
+
+.SUFFIXES: .in .out .diff
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=1/37=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 162 / storage = 1717 B / avg = 10 B
+# current buf: size = 8162 B / used = 1717 B / count = 162 / avg = 10 B
+
+# strcache performance: lookups = 177 / hit rate = 8%
+# hash-table stats:
+# Load=162/8192=2%, Rehash=0, Collisions=0/177=0%
+# Finished Make data base on Thu Apr  7 13:37:21 2022
+
+ 
